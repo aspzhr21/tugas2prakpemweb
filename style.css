@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f6f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #fbdce2;
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d6688f;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #bf4a73;
+}
+
+/* Profile Section */
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff1f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-description {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* GitHub & Skills Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff1f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #d6688f;
+}
+
+/* Footer */
+footer {
+    background-color: #fbdce2;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    color: #d6688f;
+}
